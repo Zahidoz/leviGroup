@@ -2,31 +2,122 @@ header{
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(15px);
    .main-header{
-    display: flex;
-    align-items: center;
-    gap: 53px;
-    .header-logo{
-        border: 1px solid black;
+        padding: 17px;
         display: flex;
-        gap: 8px;
-        img{
-            max-width: 39px;
-            max-height: 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 53px;
+        .header-logo{
+            cursor: pointer;
+            display: flex;
+            gap: 8px;
+            img{
+                max-width: 39px;
+                max-height: 39px;
+            }
+            .logo-txt{
+                
+                h2{
+                    font-size: 21px;
+                    font-weight: 700;
+                    color: #3BB77E;
+                }
+                h3{
+                    color: #ADADAD;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
         }
-        .logo-txt{
-            
-            h2{
-                font-size: 21px;
-                font-weight: 700;
-                color: #3BB77E;
+        .search-wrapper{
+            display: flex;
+            border-radius: 5px 0px 0px 5px;
+            background: #F3F3F3;
+            .search-container{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 12px;
+                select{
+                    background: transparent;
+                    color:  #253D4E;
+                    font-size: 14px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                .line{
+                    width: 1px;
+                    height: 13px;
+                    background: #ADADAD;
+                }
+                input{
+                    background: transparent;
+                    color:  #000;
+                    font-size: 14px;
+                    font-weight: 500;
+                    &::placeholder{
+                        color: #ADADAD;
+                    }
+                }
+            }   
+            button{
+                padding: 11px 17px;
+                border-radius: 0px 5px 5px 0px;
+                background:  #3BB77E;
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }         
+        }
+        .my-counters{
+            display: flex   ;
+            gap: 53px;
+            align-items: center;
+            .counter-box{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                img{
+                    width: 28px;
+                    height: 30px;
+                }
+                .txt-wrapper{
+                    h3{
+                        color: #000;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                    p{
+                        color: #3BB77E;
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+        .toggle-menu{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            #profPicture{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
             }
             h3{
-                color: #ADADAD;
-                font-size: 14px;
-                font-weight: 500;
+                color:  #253D4E;
+                font-size: 16px;
+                font-weight: 600;
             }
+            #toggleArrow{
+                width: 16px;
+            }
+
         }
-    }
 
    }
    .links-header{
