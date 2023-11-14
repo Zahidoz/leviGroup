@@ -1,0 +1,40 @@
+.homePage {
+  .category-sec {
+    .category-cards {
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 22px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  .featured{
+    .featured-products{
+      .container{
+        display: flex;
+        padding: 20px 0; 
+        flex-wrap: wrap;
+        gap: 26px;
+        align-items: start;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.green {
+  background: #f2fce4;
+}
+.orange {
+  background: #feefea;
+}
+.red {
+  background: #feefea;
+}
+.yellow {
+  background: #fffceb;
+}
+.pink {
+  background: #fff3ff;
+}

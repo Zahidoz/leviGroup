@@ -1,0 +1,29 @@
+.products-heading {
+  padding: 100px 10px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    h1 {
+      color: #253d4e;
+      font-size: 32px;
+      font-weight: 600;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      span {
+        color: #253d4e;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: .3s;
+        &:hover{
+            color: #3BB77E;
+        }
+      }
+    }
+  }
+}

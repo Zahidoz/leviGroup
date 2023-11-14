@@ -1,0 +1,22 @@
+.miniCard-wrapper {
+  padding: 13px 25px 19px 25px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  img {
+    margin-bottom: 15px;
+  }
+  h3 {
+    color: #253d4e;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  span {
+    color: #adadad;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
