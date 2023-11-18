@@ -1,51 +1,36 @@
-import product1 from "../assets/img/pictures/products/image1.svg";
-import product2 from "../assets/img/pictures/products/image2.svg";
-import product3 from "../assets/img/pictures/products/image3.svg";
-import product4 from "../assets/img/pictures/products/image4.svg";
-import product5 from "../assets/img/pictures/products/image5.svg";
-import product6 from "../assets/img/pictures/products/image6.svg";
+import image1 from "../assets/img/pictures/products/featured/image1.svg";
+import image2 from "../assets/img/pictures/products/featured/image2.svg";
+
 
 export const featured_products = [
   {
     id: 1,
-    img: product1,
-    title: "Peach",
-    stockCount: 20,
-    bgColor: "orange",
+    img: image1,
+    title: "Redish 500g",
+    raitingBy5: 4,
+    seller: "Mr Fooder",
+    hasDiscount: true,
+    beforePrice: 12.99, 
+    currentPrice: 7.33,
   },
   {
     id: 2,
-    img: product2,
-    title: "Vegetables",
-    stockCount: 250,
-    bgColor: "pink",
+    img: image2,
+    title: "Potatos 1kg",
+    raitingBy5: 3,
+    seller: "Mr Jabbar",
+    hasDiscount: false,
+    beforePrice: 0,
+    currentPrice: 8.45,
   },
   {
     id: 3,
-    img: product3,
-    title: "strawberry",
-    stockCount: 10,
-    bgColor: "green",
-  },
-  {
-    id: 4,
-    img: product4,
-    title: "Apple",
-    stockCount: 40,
-    bgColor: "red",
-  },
-  {
-    id: 5,
-    img: product5,
-    title: "Orange",
-    stockCount: 23,
-    bgColor: "yellow",
-  },
-  {
-    id: 6,
-    img: product6,
-    title: "Potato",
-    stockCount: 3,
-    bgColor: "green",
-  },
+    img: image1,
+    title: "Kelems 2Tpm",
+    raitingBy5: 5,
+    seller: "Mr Yaqub",
+    hasDiscount: true,
+    beforePrice: 12,
+    currentPrice: 11.95,
+  }
 ];

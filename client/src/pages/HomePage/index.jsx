@@ -4,6 +4,7 @@ import ProductsHeading from '../../components/productsHeading';
 import './style.scss'
 
 import {products} from '../../data/products'
+import {featured_products} from '../../data/featured-products'
 import RaitingCard from '../../components/raitingCard';
 
 
@@ -34,11 +35,13 @@ const HomePage = () => {
         <ProductsHeading title={"Featured Products"} />
         <section className="featured-products">
           <div className="container">
-            <RaitingCard />
-            <RaitingCard />
-            <RaitingCard />
-            <RaitingCard />
-            <RaitingCard />
+            {
+              featured_products.map(item => {
+                return (
+                  <RaitingCard item={item } />
+                )
+              })
+            }
           </div>
         </section>
       </section>

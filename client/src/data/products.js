@@ -1,9 +1,9 @@
-import product1 from "../assets/img/pictures/products/image1.svg";
-import product2 from "../assets/img/pictures/products/image2.svg";
-import product3 from "../assets/img/pictures/products/image3.svg";
-import product4 from "../assets/img/pictures/products/image4.svg";
-import product5 from "../assets/img/pictures/products/image5.svg";
-import product6 from "../assets/img/pictures/products/image6.svg";
+import product1 from "../assets/img/pictures/products/categories/image1.svg";
+import product2 from "../assets/img/pictures/products/categories/image2.svg";
+import product3 from "../assets/img/pictures/products/categories/image3.svg";
+import product4 from "../assets/img/pictures/products/categories/image4.svg";
+import product5 from "../assets/img/pictures/products/categories/image5.svg";
+import product6 from "../assets/img/pictures/products/categories/image6.svg";
 
 
 export const products = [
